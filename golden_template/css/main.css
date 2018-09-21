@@ -35,6 +35,14 @@ div {
 	padding-bottom: 120px;
 }
 
+#event__section {
+	padding-bottom: 120px;
+}
+
+footer {
+	padding-bottom: 120px;
+}
+
 /* Хэдер */
 
 header {
@@ -232,3 +240,8 @@ h1 {
 	margin-right: 48px;
 }
 
+footer {
+	font-size: 14px;
+	color: #777777;
+	text-align: center;
+}
