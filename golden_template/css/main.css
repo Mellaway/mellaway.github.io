@@ -249,14 +249,14 @@ footer {
 #toTop {
 width:100px;
 height:100px;
-border:0px solid #ccc;
+border:0px solid;
 border-radius: 50%;
 background: #fed136;
 text-align:center;
 padding:5px;
 padding-top: 32px;
 position:fixed;
-bottom:75px; /* отступ кнопки от нижнего края страницы*/
+bottom:75px;
 right:75px;
 cursor:pointer;
 display:none;
@@ -265,19 +265,3 @@ font-family:Arial;
 font-size:48px;
 font-weight: bold;
 }
-
-/* .button {
-	background: #fed136;
-	color: #484543;
-	border-radius: 3px;
-	display: block;
-	width: 240px;
-	padding: 20px 0;
-	margin: 0 auto;
-	text-decoration: none;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 18px;
-	margin-top: 50px;
-} */
