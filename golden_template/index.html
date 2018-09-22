@@ -21,9 +21,19 @@
 			});
 			});
 			</script>
+			<!-- скрипт для плавного перехода из навигации -->
+			<script type="text/javascript">
+			$(document).ready(function(){
+			$(".menu").on("click","a", function (event) {
+			event.preventDefault();
+			var id = $(this).attr('href'),
+			top = $(id).offset().top;
+			$('body,html').animate({scrollTop: top}, 800);
+			});
+			});
+			</script>
 </head>
 <body>
-	<a name="home"></a>
 		<div id="toTop">^</div>
 	<header>
 		<div class="container">
@@ -31,7 +41,7 @@
 				<img src="img/logo.png" alt="Golden" class="logo">
 				<nav>
 					<ul class="menu">
-						<li><a href="#home">Home</a></li>
+						<li><a href="#">Home</a></li>
 						<li><a href="#services">Services</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#about">About</a></li>
@@ -47,14 +57,13 @@
 					It's nice to meet you
 				</h1>
 			</div>
-			<a href="#" class="button">Tell me more</a>
+			<a href="#services" class="button">Tell me more</a>
 		</div>
 	</header>
 		
 
 	<section id="services">
 		<div class="container">
-			<a name="services"></a>
 			<div class="section__title">
 				<h2>
 					Services
@@ -97,7 +106,6 @@
 	<section id="portfolio">
 		<div class="container">
 			<div class="section__title">
-				<a name="portfolio"></a>
 				<h2>Our portfolio</h2>
 				<p>
 					Proin iaculis purus consequat sem cure. 
@@ -118,7 +126,6 @@
 	<section id="about">
 		<div class="container">
 			<div class="section__title">
-				<a name="about"></a>
 				<h2>About Us</h2>
 				<p>
 					Proin iaculis purus consequat sem cure. 
@@ -193,10 +200,9 @@
 		</div>
 	</section>
 
-	<footer>
+	<footer id="footer">
 		<div class="container">
 			<div class="copyright">
-				<a name="footer"></a>
 				<p>© Copyright 2018 Matthew Malyugin</p>
 			</div>
 		</div>
