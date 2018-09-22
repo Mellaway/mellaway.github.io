@@ -254,7 +254,7 @@ border-radius: 50%;
 background: #fed136;
 text-align:center;
 padding:5px;
-padding-top: 40px;
+padding-top: 32px;
 position:fixed;
 bottom:75px; /* отступ кнопки от нижнего края страницы*/
 right:75px;
@@ -262,7 +262,7 @@ cursor:pointer;
 display:none;
 color: #484543;
 font-family:Arial;
-font-size:18px;
+font-size:48px;
 font-weight: bold;
 }
 
