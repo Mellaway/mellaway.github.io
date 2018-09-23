@@ -17,18 +17,18 @@
 			} 
 			});
 			$('#toTop').click(function() {
-			$('body,html').animate({scrollTop:0},800);
+			$('body,html').animate({scrollTop:0},1000);
 			});
 			});
 			</script>
 			<!-- скрипт для плавного перехода из навигации -->
 			<script type="text/javascript">
 			$(document).ready(function(){
-			$(".menu").on("click","a", function (event) {
+			$(".menu, .tellmemore").on("click","a", function (event) {
 			event.preventDefault();
 			var id = $(this).attr('href'),
 			top = $(id).offset().top;
-			$('body,html').animate({scrollTop: top}, 800);
+			$('body,html').animate({scrollTop: top}, 1000);
 			});
 			});
 			</script>
@@ -57,7 +57,9 @@
 					It's nice to meet you
 				</h1>
 			</div>
-			<a href="#services" class="button">Tell me more</a>
+			<span class="tellmemore">
+				<a href="#services" class="button">Tell me more</a>
+			</span>
 		</div>
 	</header>
 		
