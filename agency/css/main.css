@@ -3,6 +3,11 @@
 	src: url(../gotham-book.ttf);
 }
 
+@font-face {
+	font-family: "Myriad Pro";
+	src: url(../myriad-pro-regular.otf);
+}
+
 /* css-reset start */
 
 html, body, div, span, applet, object, iframe,
@@ -104,16 +109,17 @@ header {
 	top: 50%; left: 50%;
 	transform: translate(-50%, -50%);
 	color: #f5f5f5;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Myriad Pro", sans-serif;
 	font-size: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 nav {
 	float: right;
-	margin-right: 28px;
+	margin-right: 30px;
 	margin-top: 56px;
 	list-style: none;
 	display: block;
@@ -131,8 +137,7 @@ nav {
 	font-family: "Myriad Pro", Arial, sans-serif;
 	font-size: 20px;
 	font-weight: lighter;
-	padding-left: 48px;
-	letter-spacing: 1.5px;
+	padding-left: 46px;
 	opacity: 0.85;
 }
 
@@ -256,7 +261,7 @@ nav {
 }
 
 #features {
-	height: 738px;
+	height: 838px;
 	background: #11749e;
 }
 
