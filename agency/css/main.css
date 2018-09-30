@@ -56,6 +56,10 @@ table {
 
 /* css-reset over */
 
+img {
+	max-width: 100%;
+}
+
 .clearfix:after {
 	content: '';
 	display: table;
@@ -65,7 +69,7 @@ table {
 
 html {
     margin:    0 auto;
-    max-width: 1600px;
+    width: 1600px;
     background-color: rgba(0,0,0,1);
 }
 
@@ -219,7 +223,6 @@ nav {
 }
 
 .scrolldown {
-	display: block;
 	margin-top: 118px;
 	margin-left: 50%;
 	transform: translate(-50%);
@@ -246,18 +249,18 @@ nav {
 }
 
 #scrolldown__circle a div::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 5px solid #fff;
-  border-bottom: 5px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: '';
+	width: 16px;
+	height: 16px;
+	margin: -12px 0 0 -8px;
+	border-left: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
 }
 
 #features {
@@ -416,6 +419,7 @@ div #section1 {
 
 #news1 {
 	float: right;
+	max-width: 100%;
 }
 
 #extensions__white {
@@ -432,6 +436,7 @@ div #section1 {
 
 #news2 {
 	float: left;
+	max-width: 100%;
 }
 
 
