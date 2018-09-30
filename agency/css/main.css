@@ -70,7 +70,8 @@ img {
 html {
     margin:    0 auto;
     width: 1600px;
-    background-color: rgba(0,0,0,1);
+    background: url(../img/bgtile.jpg) repeat 0 0;
+    box-shadow: 0px 0px 100px 5px rgba(0,0,0,0.75);
 }
 
 .container {
@@ -419,7 +420,6 @@ div #section1 {
 
 #news1 {
 	float: right;
-	max-width: 100%;
 }
 
 #extensions__white {
@@ -436,7 +436,6 @@ div #section1 {
 
 #news2 {
 	float: left;
-	max-width: 100%;
 }
 
 
