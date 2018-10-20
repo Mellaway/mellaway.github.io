@@ -1,0 +1,218 @@
+@media screen and (min-width: 1101px) {
+	.menu .icon {
+	    display: none;
+	}
+}
+
+
+@media screen and (max-width: 1100px) {
+
+	.container {
+		max-width: 80%;
+	}
+
+	.title * {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.sign-up-btn {
+		margin-right: 0;
+	}
+
+	.menu a {
+		display: none;
+	}
+
+	.menu a.icon {
+		float: right;
+		display: block;
+	}
+
+	.menu.responsive {
+		position: relative;
+	}
+
+	.menu.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.menu.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	.menu li a:hover {
+		cursor: pointer;
+		color: #5094f2;
+		border: none;
+	}
+/*	.menu-mobile ul {
+		display: none;
+	}*/
+
+/*	.menu-mobile {
+		list-style: none;
+		text-decoration: none;
+		color: #fff;
+	}*/
+/*
+	.fa-bars {
+		position: relative;
+		text-align: center;
+		padding: 1.5rem;
+		margin-right: 4rem;
+		font-size: 4rem;
+		color: #fff;
+		height: 5.5rem;
+		width: 5.5rem;
+		background-color: #5094f2;
+		border-radius: 0.5rem;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	} */
+
+/*	.menu-mobile ul {
+		position: fixed;
+		top: 50%; left: 50%;
+		transform: translate(-50% -50%);
+		font-size: 6rem;
+	}*/
+
+	.header {
+		height: 12rem;
+	}
+
+	.logo-circle {
+		width: 7rem;
+		height: 7rem;
+		font-size: 9rem;
+	}
+
+	.logo-title {
+		font-size: 5.8rem;
+		margin-left: 2rem;
+	}
+
+/*	.menu {
+		display: none;
+	}*/
+
+	.slider {
+		display: none;
+	}
+
+	.gallery-bg {
+		top: 130px;
+	}
+
+	.gallery {
+		justify-content: space-between;
+	}
+
+	.gallery img {
+		margin-left: -8rem;
+		margin-top: 3rem;
+	}
+
+	.title h1 {
+		font-size: 5rem;
+		margin-bottom: 1rem;
+	}
+
+	.title p {
+		font-size: 3.5rem;
+		line-height: 5rem;
+		margin-bottom: 5rem;
+	}
+
+	.sign-up-btn {
+		line-height: 8rem;
+		font-size: 4rem;
+		width: 32rem;
+		height: 8rem;
+	}
+
+	.fa-check-circle {
+	margin-right: 2.5rem;
+	}
+
+	.services {
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.services p, .services h2 {
+		text-align: left;
+	}
+
+	.services h2 {
+		font-size: 4rem;
+		margin: 0;
+	}
+
+	.services p {
+		font-size: 2.6rem;
+		line-height: 3rem;
+	}
+
+	.service {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 4rem;
+	}
+
+	.service::after {
+		position: absolute;
+		content: "";
+		display: block;
+		width: 100vw;
+		height: 1px;
+		background-color: #e5e5e5;
+		margin-top: 11.5rem;
+	}
+
+	.service-text {
+		margin-left: 3rem;
+	}
+
+	.shopping-cart {
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.cart-decoration {
+		align-items: center;
+	}
+
+	.cart-decoration h2 {
+		font-size: 6rem;
+		margin-bottom: 6rem;
+	}
+
+	.cart-description h3 {
+		margin-top: 3rem;
+		font-size: 5rem;
+	}
+
+	.cart-description p {
+		font-size: 3rem;
+		line-height: 6rem;
+	}
+
+	.copy {
+		font-size: 3rem;
+		margin-bottom: 6rem;
+	}
+
+	.copy::before {
+		margin-bottom: 6rem;
+	}
+
+}

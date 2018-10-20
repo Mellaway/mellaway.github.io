@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Minimal Responvise Website Template</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<div class="logo-circle"><span>“</span></div>
+					<span class="logo-title">Prechu</span>
+				</div>
+				<div class="menu" id="menu">
+					<ul>
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa fa-bars"></i>
+ 						</a></li>
+					</ul>
+				</div>
+				<!-- <div class="menu-mobile"><i class="fas fa-bars"></i>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div> -->
+			</div>
+		</div>
+	</header>
+
+
+	<main>
+		<div class="gallery-bg"></div>
+		<div class="container">
+			<div class="gallery">
+				<a href="#"><div class="slider slider-left"></div></a>
+				<a href="#"><div class="slider slider-right"></div></a>
+				<img src="img/iphone.png" alt="iPhone">
+				<div class="title">
+					<h1>Lorem Ipsum is simply</h1>
+					<p>dummy text of the<br> printing & typesetting</p>
+					<a href="#">
+						<div class="sign-up-btn"><i class="fas fa-check-circle"></i>Sign up now</div>
+					</a>
+				</div>
+			</div>
+			<div class="services">
+				<div class="service">
+					<div class="service-img">
+						<img src="img/icon-1.png" alt="">
+					</div>
+					<div class="service-text">
+						<h2>Contary to popular</h2>
+						<p>Lorem Ipsum is not simply random text.<br> It has roots in a piece</p>
+					</div>
+				</div>
+				<div class="service">
+					<div class="service-img">
+						<img src="img/icon-2.png" alt="">
+					</div>
+					<div class="service-text">
+						<h2>Contary to popular</h2>
+						<p>Lorem Ipsum is not simply random text.<br> It has roots in a piece</p>
+					</div>
+				</div>
+				<div class="service">
+					<div class="service-img">
+						<img src="img/icon-3.png" alt="">
+					</div>
+					<div class="service-text">
+						<h2>Contary to popular</h2>
+						<p>Lorem Ipsum is not simply random text.<br> It has roots in a piece</p>
+					</div>
+				</div>
+			</div>
+			<div class="shopping-cart">
+				<div class="cart-decoration">
+					<h2>The Shopping cart</h2>
+					<img src="img/cart.png" alt="shopping cart">
+				</div>
+				<div class="cart-description">
+					<h3>Some Bullet text here</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+						Lorem Ipsum has been the industry's standard dummy text ever<br>
+						When an unknown printer took a galley of type and scrambled<br>
+						It to make a type specimen book. It has survived not only five centuries<br>
+						But also the leap into electronic typesetting,<br>
+						Remaining essentially unchanged. It was popularised<br>
+						The release of Letraset sheets containing Lorem Ipsum passages</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<p class="copy">Copyright © 2012-2013 cssauthor.com</p>
+	</footer>
+
+</body>
+<script>
+	function myFunction() {
+	    var x = document.getElementById("menu");
+	    if (x.className === "menu") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "menu";
+	    }
+	}
+</script>
+</html>
