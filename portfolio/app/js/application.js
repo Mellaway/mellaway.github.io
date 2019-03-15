@@ -51,9 +51,10 @@
       }
     });
     $workItem.on('click', function() {
-      var url;
-      url = $(this).data('url');
-      return window.location.href = url;
+		var url;
+        url = $(this).data('url');
+		var newWin = window.open("about:blank", "hello");
+		newWin.location.href = url;
     });
     $grid.shuffle({
       itemSelector: $workItem,
